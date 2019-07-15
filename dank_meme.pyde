@@ -49,4 +49,4 @@ ellipse(250, 310, 30, 30)
 #signed by...
 fill(255,255,255)
 textSize(12)
-text("Meme by: Kennedy", 270, 390)
+text("Meme by: Kennedy :)", 270, 390)
