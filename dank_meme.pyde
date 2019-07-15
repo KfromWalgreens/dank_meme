@@ -1,4 +1,6 @@
 size(380, 400)
+ear_width = 57
+bowtie_size = 30
 background(255, 255, 255)
 #chair
 fill(66, 135, 245) 
@@ -8,8 +10,8 @@ ellipse(220, 300, 512, 512)
 fill(209, 162, 21)
 noStroke()
 ellipse(270, 240, 150, 100)
-ellipse(95, 50, 57, 67)
-ellipse(250, 50, 57, 67)
+ellipse(95, 50, ear_width, 67)
+ellipse(250, 50, ear_width, 67)
 ellipse(180, 190, 270, 300)
 
 #bear face
@@ -43,8 +45,8 @@ triangle(120, 270, 258, 420, 290, 290)
 #bowtie
 fill(0,0,0)
 ellipse(230, 310, 20, 20)
-ellipse(210, 310, 30, 30)
-ellipse(250, 310, 30, 30)
+ellipse(210, 310, bowtie_size, bowtie_size)
+ellipse(250, 310, bowtie_size, bowtie_size)
 
 #signed by...
 fill(255,255,255)
